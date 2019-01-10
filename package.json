@@ -12,14 +12,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^23.6.0",
-    "parcel": "^1.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.0",
     "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "parcel": "^1.11.0",
+    "prettier": "^1.15.3"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/tests/setup.js"
   }
 }
