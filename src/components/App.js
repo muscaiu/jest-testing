@@ -6,9 +6,6 @@ class App extends React.Component {
         return (
             <div>
                 <Counter />
-                <div className="container">
-                    <h1>w00t</h1>
-                </div>
             </div>
         )
     }

@@ -22,13 +22,13 @@ class Counter extends Component {
                     className="increment"
                     onClick={this.increment}
                 >
-                    Increment count
+                    +
                 </button>
                 <button
                     className="decrement"
                     onClick={this.decrement}
                 >
-                    Increment count
+                    -
                 </button>
             </div>
         )
